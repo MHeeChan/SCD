@@ -1,0 +1,7 @@
+Capstone 5.1 -> Unreal Project File
+
+StepCounterKotlin -> Android Application for Data write/read
+
+test -> For c++ socket 
+
+scd -> Final Video
