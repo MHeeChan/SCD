@@ -1,0 +1,102 @@
+갤럭시 워치4에서 사용 가능한 모든 센서
+
+LSM6DSO Accelerometer
+LSM6DSO Gyroscope
+LSM6DSO Accelerometer 32G
+LPS25H Barometer
+OPT3007 Light
+Samsung AutoBrightness
+Samsung Rotation Vector
+Game Rotation Vector
+LSM6DSL Gyroscope Uncalibrated
+Samsung Linear Acceleration Sensor
+AFE4500S ECG
+Samsung HR Raw Sensor
+Samsung HR Raw Fac Sensor
+Samsung HR None Wakeup Sensor
+Samsung HR Raw Fac2 Sensor
+AFE4500S BIA
+AK09918C Magnetometer UnCalibrated
+AK09918C Magnetometer
+SContext
+wrist_tilt_gesture
+Samsung Step Detector
+Samsung Step Counter
+Samsung Offbody Detector
+Samsung HR Sensor
+Samsung GPS Batch
+Samsung Exercise Sensor
+Samsung Pedometer
+Samsung SwimmingIndoor Sensor
+Samsung SwimmingOutdoor Sensor
+Samsung SleepDetector Sensor
+Samsung StepLevelMonitor Sensor
+Samsung DailyHR Sensor
+Samsung ExerciseCalorie Sensor
+Samsung Stress Sensor
+Samsung AutoSession Sensor
+Samsung AutoSwimming Sensor
+Samsung PPGBatch Sensor
+Samsung StairTracker Sensor
+Samsung HrmBP Sensor
+Samsung ActivityTracker Sensor
+Samsung SleepAnalyzer Sensor
+Samsung VO2 Sensor
+Samsung SPO2 Manual Sensor
+Samsung FallDetection Sensor
+Samsung Myotest Sensor
+Samsung SPO2 Continuous Sensor
+Samsung Movement Sensor
+Samsung SLocation Sensor
+Samsung Handwash Sensor
+Samsung Dynamic Workout Sensor
+Samsung InactiveTime Sensor
+Samsung AFE Logging Sensor
+Samsung wrist down Sensor
+Samsung auto rotation Sensor
+Samsung Thermistor Sensor
+Samsung Altitude Sensor
+Samsung LowPower Offbody Detector
+Samsung HR Batch Sensor
+Samsung TimeSync Sensor
+Samsung RegCtrl Sensor
+Samsung SweatLoss Sensor
+Samsung Skin Temp Sensor
+Samsung PPG IHRN Sensor
+Samsung Cycle Monitor Sensor
+Samsung SleepDetectFeature Sensor
+Gravity Sensor
+
+
+
+실제 하드웨어 센서는 가속도계, 자이로스코프, 압력, 조도, 자기 및 심박수 센서(PPG)뿐입니다.
+
+
+SensorManager API는 실제 물리적 센서에서만 작동하며, 복합 센서는 작동하지 않습니다.
+
+O	TYPE_HEART_RATE
+X	TYPE_PROXIMITY
+O	TYPE_PRESSURE
+X	TYPE_HEART_BEAT
+O	TYPE_ACCELEROMETER
+X	TYPE_DEVICE_PRIVATE_BASE
+O	TYPE_GAME_ROTATION_VECTOR
+X	TYPE_GEOMAGNETIC_ROTATION_VECTOR
+O	TYPE_GRAVITY
+O	TYPE_GYROSCOPE
+X	TYPE_HINGE_ANGLE
+O	TYPE_LIGHT
+O	TYPE_LINEAR_ACCELERATION
+O	TYPE_LOW_LATENCY_OFFBODY_DETECT
+O	TYPE_MAGNETIC_FIELD
+X	TYPE_MOTION_DETECT
+X	TYPE_POSE_6DOF
+X	TYPE_RELATIVE_HUMIDITY
+O	TYPE_ROTATION_VECTOR
+X	TYPE_SIGNIFICANT_MOTION
+X	TYPE_STATIONARY_DETECT
+O	TYPE_STEP_COUNTER
+O	TYPE_STEP_DETECTOR
+
+
+
